@@ -1,0 +1,15 @@
+﻿p {
+	color: blue;
+	font-size: 18px;
+}
+h2 {
+	color: red;
+}
+form
+ {margin: auto;
+ padding: 20px;
+ border: 5px dotted green;
+ color: limegreen;
+ font: 14pt Arial;
+ text-align: center;
+}

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задание</title>
+	<link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="hello()">
+  <button onclick="shutwindow()">Закрыть</button>
+  
+	<form name=sqr>
+	<h2>Решение квадратного уравнения аx<sup>2</sup>+bx+c=0</h2>
+	<p>a<input id=a type=text size=4></p>
+	<p>b<input name=b type=text size=4></p>
+	<p>c<input name=c type=text size=4></p>
+	<button onClick="korni()">вычислить</button><br>
+	</form>
+	<h1>Самостоятельная работа</h1>
+  <input id="num1" />
+
+	<!-- блок с кнопками -->
+   <div id="operator_btns">
+   <button id="plus" onclick="op='+'">+</button>
+   <button id="minus" onclick="op='-'">-</button>
+   <button id="times" onclick="op='*'">x</button>
+   <button id="divide" onclick="op='/'">/</button>
+   </div>
+
+	<!-- поле ввода второго числа -->
+	<input id="num2" />
+	<br>
+
+	<!-- кнопка для рассчётов -->
+   <button onclick="func()">Посчитать</button>
+   <p id="result"></p>
+  </body>
+</html>
